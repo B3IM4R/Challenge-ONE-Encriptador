@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Challenge ONE">
+        <link rel="stylesheet" href="css/styles.css">
+        <title data-translate="title"></title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="images/logoAlura.png" alt="logo Alura" class="logo">
+                <h1 class="logoDescription">Challenge ONE</h1>
+                <div class="language-selector">
+                    <button id="languageButton" class="language-button">
+                        <img src="images/languageIcon.svg" alt="Language Icon" class="language-icon">
+                        <img src="images/ArrowDropdownIcon.svg" alt="Dropdown Icon" class="dropdown-icon">
+                    </button>
+                    <div class="language-options" id="languageOptions">
+                        <button class="language-option" data-value="en">English</button>
+                        <button class="language-option" data-value="es">Español</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="cont-title">
+            <h2 data-translate="title"></h2>
+        </div>
+        <main>
+            <section class="cont-1">
+                <textarea class="input-text" cols="30" rows="16" placeholder="" data-translate="placeholder" aria-label="input text"></textarea>
+                <div class="restriction">
+                    <img src="images/alert.png" alt="Alert Symbol" class="alert-symbol">
+                    <p class="alert-description" data-translate="alert"></p>
+                </div>
+                <div class="cont-1-buttons">
+                    <button class="encrypt-btn" data-translate="encrypt"></button>
+                    <button class="decrypt-btn" data-translate="decrypt"></button>
+                </div>
+            </section>
+            <section class="cont-2">
+                <div class="cont-encrypted-text">
+                    <textarea class="encrypted-text" cols="30" readonly aria-label="encrypted text"></textarea>
+                    <p class="not-found" data-translate="notFound"></p>
+                </div>
+                <div class="cont-2-button">
+                    <button class="copy-btn" data-translate="copy"></button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="footer-text" data-translate="footer">© 2024 Beimar Mestizo</p>
+        </footer>
+        <script src="js/translations.js"></script>
+    </body>
+</html>
