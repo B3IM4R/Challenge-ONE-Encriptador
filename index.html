@@ -35,8 +35,8 @@
                     <p class="alert-description" data-translate="alert"></p>
                 </div>
                 <div class="cont-1-buttons">
-                    <button class="encrypt-btn" data-translate="encrypt"></button>
-                    <button class="decrypt-btn" data-translate="decrypt"></button>
+                    <button class="encrypt-btn" data-translate="encrypt" onclick="btnEncrypt()"></button>
+                    <button class="decrypt-btn" data-translate="decrypt" onclick="btnDecrypt()"></button>
                 </div>
             </section>
             <section class="cont-2">
@@ -45,7 +45,7 @@
                     <p class="not-found" data-translate="notFound"></p>
                 </div>
                 <div class="cont-2-button">
-                    <button class="copy-btn" data-translate="copy"></button>
+                    <button class="copy-btn" data-translate="copy" onclick="copier()"></button>
                 </div>
             </section>
         </main>
@@ -53,5 +53,6 @@
             <p class="footer-text" data-translate="footer">© 2024 Beimar Mestizo</p>
         </footer>
         <script src="js/translations.js"></script>
+        <script src="js/encrypt.js"></script>
     </body>
 </html>

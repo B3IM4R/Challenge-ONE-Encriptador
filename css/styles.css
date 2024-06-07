@@ -226,6 +226,7 @@ main {
 
 .copy-btn {
     display: none;
+    margin: auto;
     width: 80%;
     max-width: 380px;
     height: 65px;

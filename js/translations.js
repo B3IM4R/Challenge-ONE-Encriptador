@@ -65,3 +65,7 @@ var userLanguage = localStorage.getItem('language') || 'en';
 window.onload = function() {
     document.querySelector('.language-option[data-value="' + userLanguage + '"]').click();
 };
+
+document.querySelector('.input-text').addEventListener('focus', function() {
+    this.value = '';
+});
